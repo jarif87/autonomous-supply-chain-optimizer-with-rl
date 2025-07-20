@@ -2,6 +2,8 @@
 
 The Supply Chain Shipping Mode Predictor is a Streamlit-based web application that uses a Proximal Policy Optimization (PPO) reinforcement learning model to recommend optimal shipping modes (First Class, Same Day, Second Class, Standard Class) for supply chain orders. Built with a custom Gym environment (SupplyChainEnv), it optimizes for minimal shipping delays, reduced late delivery risk and maximum profit, achieving a 100% success rate (reward > 0). The app features a modern UI with rounded forms and buttons, styled with custom CSS and supports unscaled user inputs (e.g., costs in dollars, latitude in degrees) with automated preprocessing using MinMaxScaler.
 
+![](images/image.png)
+
 ### Features
 - Reinforcement Learning: Utilizes a PPO model trained in a custom SupplyChainEnv to predict shipping modes based on order data.
 - User-Friendly Interface: Clean, responsive UI with rounded input fields and buttons, built with Streamlit and custom CSS.
