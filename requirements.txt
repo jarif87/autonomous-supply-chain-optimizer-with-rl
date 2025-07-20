@@ -1,0 +1,5 @@
+numpy==1.26.4
+gym==0.25.2
+stable-baselines3==2.1.0
+streamlit
+scikit-learn==1.2.2
